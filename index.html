@@ -1,0 +1,447 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    * {
+  padding: 0;
+  margin: 0;
+}
+
+.main-img{
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: orange;
+  background-image: url("https://safikumar00.github.io/assets/bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.p {
+  padding: 10px;
+}
+
+.box-1,
+.box-2 {
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 1);
+  color: black;
+  border-radius: 40px;
+  filter: drop-shadow(20px 20px 20px black);
+}
+
+.sec {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0px 4px 4px black);
+}
+
+.enter {
+  width: 60%;
+  /* font-size: 20px; */
+  /* margin: 20px; */
+  border: 1px solid white;
+  border-radius: 25px 0px 0px 25px;
+  padding: 10px;
+  /* filter: drop-shadow(0 0 5px black); */
+}
+
+.main {
+  font-size: 25px;
+  line-height: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.submit {
+  /* font-size: 20px; */
+  background-color: orange;
+  color: white;
+  font-weight: 800;
+  border: 1px solid orange;
+  border-radius: 0px 25px 25px 0px;
+  padding: 10px;
+  /* filter: drop-shadow(5px 0px 5px black); */
+}
+
+.p-r {
+  margin-right: 10px;
+}
+
+.date-change {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.date-input {
+  font-size: 30px;
+  width: 60px;
+}
+
+.b {
+  font-size: 30px;
+  width: 40px;
+  height: 40px;
+}
+
+p {
+  font-family: Impact;
+  padding: 0;
+  font-weight: 800;
+}
+#year {
+  font-size: 45px;
+  line-height: 45px;
+}
+
+#date {
+  font-size: 100px;
+  line-height: 100px;
+}
+
+#month {
+  font-size: 75px;
+  line-height: 75px;
+}
+
+#day {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.temp {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+}
+
+.temp-1 {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+}
+
+#temp {
+  font-family: Impact;
+  font-size: 200px;
+  line-height: 200px;
+}
+
+.t-real {
+  font-size: 100px;
+  margin-top: -100px;
+  font-family: Impact;
+}
+
+#feel {
+  font-size: 60px;
+  color: white;
+}
+
+.bg-blue {
+  width: 100%;
+  background-color: rgba(0, 200, 255, 0.5);
+}
+
+.card-title {
+  text-align: center;
+}
+
+.title {
+  font-size: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* filter: drop-shadow(0 0 5px black); */
+}
+
+.hinge {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -50px;
+}
+
+.hinge-2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -40px;
+  /* margin-bottom: 130px; */
+}
+
+.rect {
+  width: 10px;
+  height: 40px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: white;
+  align-items: bottom;
+  filter: drop-shadow(2px 2px 0px black);
+}
+
+.date {
+  height: 220px;
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.links {
+  font-size: 30px;
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 30px;
+}
+.fa:hover{
+  color: #306a92;
+}
+.fa {
+  color: white;
+}
+/* Add this at the end of your existing CSS */
+
+@media only screen and (max-width: 600px) {
+  .main-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .container {
+    background-size: contain;
+    flex-direction: column;
+    
+  }
+
+  .box-2 {
+    width: 80%;
+    height: 300px;
+  }
+  .box-1{
+  width: 80%;
+      height: 250px;
+  }
+
+  .sec {
+    width: 100%;
+  }
+
+  .enter{
+    width: 60%;
+    border-radius: 25px 0px 0px 25px;
+    margin-top: 10px;
+  }
+  .submit{
+  margin-top: 10px;
+      width: 20%;
+    border-radius: 0px 25px 25px 0px;
+  }
+
+  .date-input {
+    font-size: 20px;
+    width: 40px;
+  }
+
+  .b {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+  }
+
+  #temp {
+    font-size: 100px;
+    line-height: 100px;
+  }
+
+  .t-real {
+    font-size: 50px;
+    margin-top: -50px;
+  }
+
+  #feel {
+    font-size: 30px;
+  }
+
+  .links {
+    font-size: 20px;
+    width: 40vw;
+    bottom: 10px;
+    padding: 5px;
+  }
+  .date {
+    height: auto; /* Adjust the height as needed */
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 90%;
+  }
+  .hallow:after{
+      content:" -";
+  }
+
+  #year {
+    font-size: 25px; /* Adjust the font size as needed */
+    line-height: 25px;
+    font-family: Impact;
+    font-weight: 800;
+  }
+
+  #date {
+    font-size: 25px; /* Adjust the font size as needed */
+    line-height: 50px;
+    font-family: Impact;
+    font-weight: 800;
+  }
+
+  #month {
+    font-size: 25px; /* Adjust the font size as needed */
+    line-height: 37.5px;
+    font-family: Impact;
+    font-weight: 800;
+  }
+
+  #day {
+    font-size: 25px; /* Adjust the font size as needed */
+    line-height: 15px;
+    font-family: Impact;
+    font-weight: 800;
+}
+#day:after{
+    content:"";
+}
+.hinge-2{
+    margin-top: -70px
+}
+}
+
+</style>
+
+<div class="container">
+  <img src="https://safikumar00.github.io/assets/main.png" class="main-img">
+
+  <div class="box-1">
+    <div class="hinge">
+      <div class='rect'></div>
+      <div class='rect'></div>
+      <div class='rect'></div>
+      <div class='rect'></div>
+      <div class='rect'></div>
+      <div class='rect'></div>
+    </div>
+    <h1 class="main p">Date Part</h1>
+
+    <div class="sec p"><input type="input" placeholder="Enter your city name..." class="enter" id="city-name" required><button class="submit" type="button" onclick="cityNameChange()">Submit</button></div>
+
+    <div class="date p">
+      <p id="year" class="hallow"></p>
+      <p id="date" class="hallow"></p>
+      <p id="month" class="hallow"></p>
+      <p id="day" class="hallow"></p>
+    </div>
+
+    <!-- <div class="date-change p">
+                <button class="plus b p-r" onclick=plus()>+</button>
+                <input type="number" class="date-input p-r" id="change-date">
+                <button class="minus b p-r" onclick=minus()>-</button>
+            </div> -->
+  </div>
+  <div class="box-2">
+    <div class="hinge-2">
+      <div class='rect'></div>
+      <div class='rect'></div>
+      <div class='rect'></div>
+      <div class='rect'></div>
+      <div class='rect'></div>
+      <div class='rect'></div>
+    </div>
+    <div class="card-title">
+      <h2 class="title" id="name"></h2>
+    </div>
+    <div class="temp">
+      <h1 id="temp"></h1><span class="t-real">°c</span>
+    </div>
+    <div class="temp-1 bg-blue">
+      <h3 id="feel"></h3>
+    </div>
+  </div>
+  <div class="links bg-primary container-fluid">
+      <a href="https://www.linkedin.com/in/deepak-tech/" target="blank"><i class="fa fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/thedeepak.kumar?utm_source=qr&igsh=MXBqcnM3NGJzb2ltbg==" target="blank"><i class="fa fa-instagram"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100004926905619" target="blank"><i class="fa fa-facebook"></i></a>
+      <a href="mailto: deepak.aaa65@gmail.com" target="blank"><i class="fa fa-google"></i></a>
+      <a href="https://x.com/DeepakAaa65" target="blank"><i class="fa fa-twitter"></i></a>
+      <a href="https://github.com/thedeepak2601" target="blank"><i class="fa fa-github"></i></a>
+    </div>
+    
+</div>
+
+
+<script>
+    var month = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
+
+var day = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+
+var d = new Date();
+document.getElementById('year').innerHTML = d.getFullYear();
+document.getElementById('date').innerHTML = d.getDate();
+document.getElementById('month').innerHTML = month[d.getMonth()];
+document.getElementById('day').innerHTML = day[d.getDay()];
+
+// let cityName = "Visakhapatnam";
+let cityName = "Delhi";
+
+function cityNameChange() {
+    cityName = document.getElementById("city-name").value;
+    run();
+}
+
+var temp;
+let feel;
+const apiKey = '0cefbdd8089c7b724b58eac94e84c704';
+
+
+
+function run() {
+    let city = cityName;
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
+    fetch(apiUrl)
+        .then(response => response.json())
+        .then(data => {
+            feel = data.weather[0].main;
+            document.getElementById('feel').innerHTML = feel;
+            name = data.name;
+            document.getElementById('name').innerHTML = "Weather Today At " + name;
+            temp = data.main.temp;
+            temp -= 273.15;
+            document.getElementById('temp').innerHTML = Math.floor(temp);
+        })
+        .catch(error => alert("Enter correct City name"));
+}
+
+run();
+</script>
