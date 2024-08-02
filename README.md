@@ -2,15 +2,15 @@
 An app that fetches and displays weather information for a given location.
 
 # Key Features:
-> Search functionality to find weather data by city name.
-> Display current weather, temperature, humidity, and forecast.
-> Use of an external weather API.
+* Search functionality to find weather data by city name.
+* Display current weather, temperature, humidity, and forecast.
+* Use of an external weather API.
 
 # Technologies: 
-> HTML
-> CSS
-> JavaScript
-> API integration.
+* HTML
+* CSS
+* JavaScript
+* API integration.
 
 # View : 
 
