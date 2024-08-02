@@ -6,7 +6,11 @@ An app that fetches and displays weather information for a given location.
 > Display current weather, temperature, humidity, and forecast.
 > Use of an external weather API.
 
-# Technologies: HTML, CSS, JavaScript, API integration.
+# Technologies: 
+> HTML
+> CSS
+> JavaScript
+> API integration.
 
 # View : 
 
